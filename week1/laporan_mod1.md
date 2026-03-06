@@ -17,17 +17,17 @@ Instalasi Wireshark
  ![versi komputer](../assets/image/week1WR.png)
 3. Jalankan file yan diunduh dan klik "next" hingga semua alur proses instalasi selesai.
 4. Buka aplikasi wireshark untuk mengetahui apakah aplikasih dapat berjalan dengan baik.
-## Lampiran:
+### Lampiran:
  ![wireshark berhasil](../assets/image/wr.png)
 
 Instalasi Python
 1. Download aplikasi Python pada link berikut: https://www.python.org/downloads/.
-## Lampiran:
+### Lampiran:
 ![download python](../assets/image/week1_py.png)
 2. Pilih versi python terbaru
 3. Pilih menu download sesuai dengan versi komputer kita (Windows/Mac/Linux).
 4. Jalankan file yan diunduh dan klik "next" hingga semua alur proses instalasi selesai.
 5. Saat instalasi berlangsung, pastikan mencentang "add python to path" agar python dapat dijalankan lewat command prompt.
 6. Setelah instalasi selesi, kita dapat mengecek apakah intalasi kita berhasil dengan cara membuat command prompt lalu ketik "python --version". Jika muncul versi python berarti instalasi berhasil.
-## Lampiran:
+### Lampiran:
 ![mengecek cmd](../assets/image/week1CMD.png)
