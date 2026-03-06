@@ -8,7 +8,7 @@ Mengetahui tools yang akan digunakan dan memastikan tools berfungsi dengan baik 
 
 ## Instalasi Tools
 
-Instalasi Wireshark
+**Instalasi Wireshark**
 1. Download aplikasi wireshark pada link berikut: http://www.wireshark.org/.
 ## Lampiran:
 ![download wireshark](../assets/image/week1_wr.png)
@@ -23,7 +23,7 @@ Instalasi Wireshark
 ### Lampiran:
  ![wireshark berhasil](../assets/image/wr.png)
 
-Instalasi Python
+**Instalasi Python**
 1. Download aplikasi Python pada link berikut: https://www.python.org/downloads/.
 ### Lampiran:
 ![download python](../assets/image/week1_py.png)
