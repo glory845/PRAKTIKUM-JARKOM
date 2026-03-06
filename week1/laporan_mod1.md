@@ -16,6 +16,7 @@ Instalasi Wireshark
 ## Lampiran:
  ![versi komputer](../assets/image/week1WR.png)
 3. Jalankan file yan diunduh dan klik "next" hingga semua alur proses instalasi selesai.
+
 4. Buka aplikasi wireshark untuk mengetahui apakah aplikasih dapat berjalan dengan baik.
 ### Lampiran:
  ![wireshark berhasil](../assets/image/wr.png)
