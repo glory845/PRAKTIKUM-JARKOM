@@ -26,9 +26,13 @@ Instalasi Python
 ### Lampiran:
 ![download python](../assets/image/week1_py.png)
 2. Pilih versi python terbaru
+
 3. Pilih menu download sesuai dengan versi komputer kita (Windows/Mac/Linux).
+
 4. Jalankan file yan diunduh dan klik "next" hingga semua alur proses instalasi selesai.
+
 5. Saat instalasi berlangsung, pastikan mencentang "add python to path" agar python dapat dijalankan lewat command prompt.
+
 6. Setelah instalasi selesi, kita dapat mengecek apakah intalasi kita berhasil dengan cara membuat command prompt lalu ketik "python --version". Jika muncul versi python berarti instalasi berhasil.
 ### Lampiran:
 ![mengecek cmd](../assets/image/week1CMD.png)
