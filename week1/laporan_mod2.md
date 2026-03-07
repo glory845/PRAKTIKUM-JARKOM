@@ -1,7 +1,8 @@
 # LAPORAN PRAKTIKUM MODUL 2
 
-**Nama: Glory Leonthine Angi
-NIM: 103072400058**
+**Nama: Glory Leonthine Angi**
+
+**NIM: 103072400058**
 
 ## Tujuan Praktikum
 Menggunakan wireshark untuk mengamati dan menganalisis paket data dalam jaringan komputer.
@@ -78,7 +79,7 @@ Jika komputer tidak terhubung ke koneksi Wi-Fi, proses capture akan otomatis ber
 #### Lampiran HTTP ditemukan:
 ![HTTP/1.1 200 OK (text/html)](../assets/image/mod2(12).png)
 
-12. Klik paket tersebut, lalu pada detail protokol HTTP akan menampilkan pesan “Congratulations! You've downloaded the first Wireshark lab file!” seperti pada browser yang telah kita buka tadi.
+12. Klik paket tersebut, lalu pada detail protokol HTTP akan menampilkan pesan **“Congratulations! You've downloaded the first Wireshark lab file!”** seperti pada browser yang telah kita buka tadi.
 
 #### Lampiran pesan berhasil ditampilkan:
 ![menampilkan pesan](../assets/image/mod2(10).png)
