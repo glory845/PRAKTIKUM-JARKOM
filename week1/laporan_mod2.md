@@ -27,11 +27,10 @@ Wireshark akan langsung mulai menangkap paket data yang lewat melalui koneksi Wi
 Jika komputer tidak terhubung ke koneksi Wi-Fi, proses capture akan otomatis berhenti. Jika koneksi WI-Fi tersambung kembali, wireshark akan melanjutkan penangkapan paket tanpa perlu memulai ulang.
 ## Lampiran tanpa koneksi Wi-Fi: 
 ![tanpa koneksi Wi-Fi](../assets/image/mod(4).png)
-## Lampiran koneksi Wi-Fi
+## Lampiran koneksi Wi-Fi:
 ![terhubung kembali ke Wi-Fi](../assets/image/mod(5).png)
 
-5. Untuk menghasilkan lalu lintas jaringan, buka browser dan masukkan URL: http://gaia.cs.umass.edu/wireshark
-labs/INTRO-wireshark-file1.html 
+5. Untuk menghasilkan lalu lintas jaringan, buka browser dan masukkan URL: http://gaia.cs.umass.edu/wiresharklabs/INTRO-wireshark-file1.html 
 
 ### **Catatan:**
 - Jika URL otomatis berubah menjadi **"https"**, halaman tidak akan menampilkan pesan **"Congratulations! You've downloaded the first Wireshark lab file!"**. Pastikan huruf **"s"** dihapus sehingga tetap menggunakan "**http**".
