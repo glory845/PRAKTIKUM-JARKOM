@@ -20,6 +20,7 @@ Wireshark akan langsung mulai menangkap paket data yang lewat melalui koneksi Wi
 ![menghentikan](../assets/image/mod(2).png)
 
 5. Untuk menjalankan kembali, klik ikon **"sirip wireshark"** dan pilih **"continue without saving"** jika tidak ingin menyimpan hasil sebelumnya.
+   
 ![menjalankan kembali](../assets/image/mod(3).png)
 
 ### **Catatan:** 
