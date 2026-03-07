@@ -1,7 +1,7 @@
 # LAPORAN PRAKTIKUM MODUL 2
 
-Nama: Glory Leonthine Angi
-NIM: 103072400058
+**Nama: Glory Leonthine Angi
+NIM: 103072400058**
 
 ## Tujuan Praktikum
 Menggunakan wireshark untuk mengamati dan menganalisis paket data dalam jaringan komputer.
@@ -11,13 +11,14 @@ Menggunakan wireshark untuk mengamati dan menganalisis paket data dalam jaringan
 
 2. Pada tampilan awal, dibawah capture terdapat daftar interface, klik dua kali pada interface **"Wi-Fi"**.
 ![tampilan awal](../assets/image/mod2.png)
+
 wireshark akan langsung mulai menangkap paket data yang lewat melalui koneksi Wi-Fi.
 ![melalukan capture](../assets/image/mod2(1).png)
 
-3. Setelah memulai pengambilan paket data, kita dapat menghentikannya dengan cara mengklik ikon **"kotak merah"** disebelah sirip wireshark.
+4. Setelah memulai pengambilan paket data, kita dapat menghentikannya dengan cara mengklik ikon **"kotak merah"** disebelah sirip wireshark.
 ![menghentikan](../assets/image/mod(2).png)
 
-4. Untuk menjalankan kembali, klik ikon **"sirip wireshark"** dan pilih **"continue without saving"** jika tidak ingin menyimpan hasil sebelumnya.
+5. Untuk menjalankan kembali, klik ikon **"sirip wireshark"** dan pilih **"continue without saving"** jika tidak ingin menyimpan hasil sebelumnya.
 ![menjalankan kembali](../assets/image/mod(3).png)
 
 ### **Catatan:** 
