@@ -53,6 +53,7 @@ Jika komputer tidak terhubung ke koneksi Wi-Fi, proses capture akan otomatis ber
     ![error berhasil teratasi](../assets/image/mod2(8).png)
 
 - Jika masih error, coba gunakan aplikasi lain untuk membuka.
+  
 
 6. Setelah halaman berhasil ditampilkan di browser, kembali ke aplikasi wireshark dan hentikan proses capture agar data tidak terus bertambah.
 
