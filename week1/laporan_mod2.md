@@ -12,10 +12,11 @@ Menggunakan wireshark untuk mengamati dan menganalisis paket data dalam jaringan
 2. Pada tampilan awal, dibawah capture terdapat daftar interface, klik dua kali pada interface **"Wi-Fi"**.
 ![tampilan awal](../assets/image/mod2.png)
 
-    Wireshark akan langsung mulai menangkap paket data yang lewat melalui koneksi Wi-Fi.
+Wireshark akan langsung mulai menangkap paket data yang lewat melalui koneksi Wi-Fi.
 ![melalukan capture](../assets/image/mod2(1).png)
 
 4. Setelah memulai pengambilan paket data, kita dapat menghentikannya dengan cara mengklik ikon **"kotak merah"** disebelah sirip wireshark.
+
 ![menghentikan](../assets/image/mod(2).png)
 
 5. Untuk menjalankan kembali, klik ikon **"sirip wireshark"** dan pilih **"continue without saving"** jika tidak ingin menyimpan hasil sebelumnya.
