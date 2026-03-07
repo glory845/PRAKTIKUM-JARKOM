@@ -37,15 +37,19 @@ Jika komputer tidak terhubung ke koneksi Wi-Fi, proses capture akan otomatis ber
 ![https error](../assets/image/mod2(6).png)
 
 - Jika sudah diubah ke http tetapi masih error, lakukan langkah ini:
+  
     1. Klik kanan di browser > pilih **"Inspect"**.
+       
     ![inspect](../assets/image/mod2(11).png)
 
-    2. Masuk ke menu **"Application"** > **"Cookies"**.
+    3. Masuk ke menu **"Application"** > **"Cookies"**.
 
-    3. Klik kanan pada cookies browser yang ada, lalu pilih **"Clear"**.
-    ![Application & clear cookies](../assets/image/mod2(7).png)
+    4. Klik kanan pada cookies browser yang ada, lalu pilih **"Clear"**.
+       
+    ### Lampiran Application & clear cookies ![Application & clear cookies](../assets/image/mod2(7).png)
 
-    4. Refresh halaman.
+    5. Refresh halaman.
+       
     ![error berhasil teratasi](../assets/image/mod2(8).png)
 
 - Jika masih error, coba gunakan aplikasi lain untuk membuka.
