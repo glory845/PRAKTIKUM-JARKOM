@@ -1,7 +1,7 @@
 # LAPORAN PRAKTIKUM MODUL 3
 
-**Nama: Glory Leonthine Angi'
-NIM: 103072400058**
+**Nama: Glory Leonthine Angi'**
+**NIM: 103072400058**
 
 ## Tujuan Praktikum
 Menggunakan Wireshark untuk mempelajari protokol HTTP yang sedang berjalan.
@@ -28,7 +28,7 @@ http://gaia.cs.umass.edu/wireshark-labs/HTTPwireshark-file1.html
 
 #### catatan:
 
-pastikan browser yang di akses bertulisan **http** bukan **https** agar tidak terjadi error saat mengakses browser.
+**pastikan browser yang di akses bertulisan _**http**_ bukan _**https**_ agar tidak terjadi error saat mengakses browser.**
 
 2. Setelah halaman muncul, kembali ke wireshark dan klik stop untuk menghentikan capture
 
@@ -67,7 +67,7 @@ browser akan menampilkan file HTML dengan 5 baris
 ![code 304 Not Modified](../assets/image/mod3(4).png)
 
 #### Catatan:
-Status code **304 Not Modified** muncul karena browser masih menyimpan file di cache. Saat halaman dibuka kembali, browser hanya memeriksa apakah file di server berubah atau tidak, karena file tidak berubah, maka server tidak mengirim ulang file tersebut.
+**Status code _**304 Not Modified**_ muncul karena browser masih menyimpan file di cache. Saat halaman dibuka kembali, browser hanya memeriksa apakah file di server berubah atau tidak, karena file tidak berubah, maka server tidak mengirim ulang file tersebut.**
 
 ### Cara Mengatasi:
 - Klik kanan pada halaman browser.
@@ -109,7 +109,7 @@ browser akan menampilkan dokumen HTML yang lebih panjang yaitu **THE BILL OF RIG
 
 #### catatan:
 
-Karena ukuran file lebih besar, data respons dikirim dalam beberapa paket TCP.
+**Karena ukuran file lebih besar, data respons dikirim dalam beberapa paket _TCP_.**
 
 ## 3.4. HTML Documents dengan Embedded Objects 
 
@@ -134,7 +134,7 @@ browser akan menampilkan file HTML yang berisi 2 gambar.
 ![Embedded Objects](../assets/image/mod3(10).png)
 
 #### catatan:
-Gambar pada halaman tidak langsung mejadi file HTML, tetapi diambil dari alamat URL lain. browser akan meminta file HTML terlebih dahulu, lalu melanjutkan dengan mengambil gambar yang ditampilkan pada halaman.
+**Gambar pada halaman tidak langsung mejadi file HTML, tetapi diambil dari alamat URL lain. browser akan meminta file HTML terlebih dahulu, lalu melanjutkan dengan mengambil gambar yang ditampilkan pada halaman.**
 
 ## 3.5. HTTP Authentication
 
@@ -163,4 +163,5 @@ Saat login akan muncul, masukkan username: **wireshark-students** dan password: 
 ![HTTP Authentication](../assets/image/mod3(12).png)
 
 #### Catatan:
-Pada percobaan ini, browser mengirimkan informasi login melalui header authorization. Username dan password tidak dikirim dalam bentuk teks biasa, tetapi diubah ke dalam **format base64**. Format ini buka enkripsi sehingga data masih bisa dikembalikan ke bentuk aslinya dan kurang aman jika tidak menggunakan perlindungan tambahan.
+**Pada percobaan ini, browser mengirimkan informasi login melalui header authorization. Username dan password tidak dikirim dalam bentuk teks biasa, tetapi diubah ke dalam _**format base64**_. Format ini buka enkripsi sehingga data masih bisa dikembalikan ke bentuk aslinya dan kurang aman jika tidak menggunakan perlindungan tambahan.
+**
