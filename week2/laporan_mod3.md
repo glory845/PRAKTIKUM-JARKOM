@@ -163,5 +163,4 @@ Saat login akan muncul, masukkan username: **wireshark-students** dan password: 
 ![HTTP Authentication](../assets/image/mod3(12).png)
 
 #### Catatan:
-**Pada percobaan ini, browser mengirimkan informasi login melalui header authorization. Username dan password tidak dikirim dalam bentuk teks biasa, tetapi diubah ke dalam _**format base64**_. Format ini buka enkripsi sehingga data masih bisa dikembalikan ke bentuk aslinya dan kurang aman jika tidak menggunakan perlindungan tambahan.
-**
+**Pada percobaan ini, browser mengirimkan informasi login melalui header authorization. Username dan password tidak dikirim dalam bentuk teks biasa, tetapi diubah ke dalam _**format base64**_. Format ini buka enkripsi sehingga data masih bisa dikembalikan ke bentuk aslinya dan kurang aman jika tidak menggunakan perlindungan tambahan.**
