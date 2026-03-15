@@ -8,7 +8,7 @@ Menggunakan Wireshark untuk mempelajari protokol HTTP yang sedang berjalan.
 
 ## Persiapan
 1. Jalankan aplikasi **wireshark**.
-2. Pilih interface jaringan yang sedang kamu gunakan untuk internet (misalnya Wi-Fi).
+2. Pilih **interface jaringan** yang sedang kamu gunakan untuk internet (misalnya **Wi-Fi**).
 3. Klik 2 kali pada interface tersebut untuk memulai menangkap paket.
 4. Pada bagian atas jendela wireshark, ketik **http** di kolom display filter, lalu tekan enter.
 5. Hentikan proses capture dengan **klik kotak merah** agar tidak ada paket lain yang ikut terekam.
@@ -52,6 +52,7 @@ pastikan browser yang di akses bertulisan **http** bukan **https** agar tidak te
 1. Buka browser dibawah ini untuk mengakses alamat:
    
 http://gaia.cs.umass.edu/wireshark-labs/HTTPwireshark-file2.html
+
 browser akan menampilkan file HTML dengan 5 baris
 
 #### lampiran halaman browser HTTP Conditional
@@ -91,6 +92,7 @@ Status code **304 Not Modified** muncul karena browser masih menyimpan file di c
 2. Buka browser dibawah ini untuk mengakses alamat:
    
 http://gaia.cs.umass.edu/wireshark-labs/HTTPwireshark-file3.html
+
 browser akan menampilkan dokumen HTML yang lebih panjang yaitu **THE BILL OF RIGHTS**.
 
 #### lampiran halaman browser Retrieving Long Documents
@@ -116,6 +118,7 @@ Karena ukuran file lebih besar, data respons dikirim dalam beberapa paket TCP.
 2. Buka browser dibawah ini untuk mengakses alamat:
    
 http://gaia.cs.umass.edu/wireshark-labs/HTTPwireshark-file4.html
+
 browser akan menampilkan file HTML yang berisi 2 gambar.
 
 #### lampiran halaman browser Embedded Objects 
@@ -140,6 +143,7 @@ Gambar pada halaman tidak langsung mejadi file HTML, tetapi diambil dari alamat 
 2. Buka browser dibawah ini untuk mengakses alamat:
    
 http://gaia.cs.umass.edu/wiresharklabs/protected_pages/HTTP-wireshark-file5.html
+
 Saat login akan muncul, masukkan username: **wireshark-students** dan password: **network**
 
 #### lampiran menu login
