@@ -8,19 +8,23 @@ Menginvestigasi cara kerja DNS dengan menggunakan Wireshark.
 
 ## Nslookup
 1. Buka cmd
+   
 2. Ketik perintah **nslookup www.mit.edu**
 ![nslookup mit.edu](../assets/image/4.1.png)
 
 perintah ini berarti "tolong kirimkan alamat IP untuk host www.mit.edu". jawaban dari perintah ini menyediakan dua informasi: (1) nama dan alamat IP server DNS yang memberikan jawaban dari perintah yang dimasukkan; dan (2) jawaban dari perintah tersebut, berupa nama host dan alamat IP. 
-4. Ketik perintah **nslookup –type=NS mit.edu**
+
+3. Ketik perintah **nslookup –type=NS mit.edu**
 ![nslookup -type](../assets/image/4.2.png)
 
 permintaan tersebut berarti, "tolong kirimkan saya nama host dari DNS otoritatif untuk mit.edu". perintah itu digunakan untuk mengetahui nama-nama server DNS otoritatif suatu domain, dan hasil yang ditampilkan bisa berupa jawaban cache (non-otoritatif) dan alamat IP server otoritatif.
-5. Ketik perintah nslookup **www.aiit.or.kr bitsy.mit.edu**
+
+4. Ketik perintah nslookup **www.aiit.or.kr bitsy.mit.edu**
 ![nslookup aiit](../assets/image/4.3.png)
 
 Permintaan DNS diarahkan langsung ke server DNS bitsy.mit.edu, bukan ke server DNS lokal/default. Karena permintaan dikirim langsung, jawaban yang diterima adalah hasil otoritatif dari server MIT.
-6. Ketik perintah **nslookup –option1 –option2 host-to-find dns-server** 
+
+5. Ketik perintah **nslookup –option1 –option2 host-to-find dns-server** 
 ![nslookup -option](../assets/image/4,4.png)
 
 Sintaks nslookup pada dasarnya memberi kebebasan untuk menentukan opsi pencarian (misalnya mau cari record A, NS, MX, dll), menentukan host atau domain yang ingin dicari informasinya, menentukan server DNS tujuan (kalau tidak ditulis, otomatis pakai server DNS lokal).
@@ -50,10 +54,12 @@ server tersebut memberikan respon query refused karena kebijakan keamanan intern
 ![ipconfig](../assets/image/4.18.png)
 
 Perintah ini berfungsi untuk menampilkan detail teknis jaringan, termasuk alamat fisik perangkat (MAC Address) dan status apakah pengaturan IP bersifat otomatis (DHCP) atau manual.
+
 4. Ketik perintah **ipconfig /displaydns**
 ![display](../assets/image/4.19.png)
 
 Perintah ini berfungsi untuk menampilkan cache DNS yang tersimpan di komputer. Daftar ini berisi alamat situs yang pernah dikunjungi agar komputer bisa membukanya kembali dengan lebih cepat tanpa harus bertanya ke server internet lagi.
+
 5. Ketik perintah **ipconfig /flushdns**
 ![flushddns](../assets/image/4.8.png)
 
