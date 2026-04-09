@@ -88,34 +88,35 @@ atau TCP?
 
 Pesan permintaan DNS pada no 74 dan balasannya pada no 81 dikirimkan melalui protokol TCP.
 
-3. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasannya? 
+2. Apa port tujuan pada pesan permintaan DNS? Apa port sumber pada pesan balasannya? 
 ![hasil no 2](../assets/image/no2_Tracing%20DNS.png)
 
 Port tujuannya adalah 53 dan port sumbernya adalah 52473.
 
-5. Apa alamat IP tujuannya? Apa alamat IP server DNS lokal anda? Apakah kedua alamat IP tersebut sama? 
+3. Apa alamat IP tujuannya? Apa alamat IP server DNS lokal anda? Apakah kedua alamat IP tersebut sama? 
 ![hasil no 3 wireshark](../assets/image/no3.1_Tracing%20DNS.png)
 ![hasil no 3 cmd](../assets/image/no3.2_Tracing%20DNS.png)
 
 Alamat IP tujuannya adalah 192.168.3.1, karena ini sama dengan IP DNS server di ipconfig, sehingga keduannya sama.
 
-7. Apa “jenis” atau ”type” dari pesan tersebut? Apakah pesan permintaan tersebut mengandung ”jawaban” atau ”answers”? 
+4. Apa “jenis” atau ”type” dari pesan tersebut? Apakah pesan permintaan tersebut mengandung ”jawaban” atau ”answers”?
+   
 ![hasil no 4](../assets/image/no4_Tracing%20DNS.png)
 
 jenis pesannya adalah Type A yang berarti komputer sedang meminta alamat IPv4 dan tidak mengandung jawaban.
 
-9. Berapa banyak ”jawaban” atau ”answers” yang terdapat di dalamnya? Apa saja isi yang terkandung dalam setiap jawaban tersebut? 
+5. Berapa banyak ”jawaban” atau ”answers” yang terdapat di dalamnya? Apa saja isi yang terkandung dalam setiap jawaban tersebut? 
 ![hasil no 5](../assets/image/no5_Tracing%20DNS.png)
 
 terdapat 12 jawaban dan terdiri dari 3 record CNAME dan 9 record Type A.
 
-11. Perhatikan paket TCP SYN yang selanjutnya dikirimkan oleh host Anda. Apakah alamat IP 
+6. Perhatikan paket TCP SYN yang selanjutnya dikirimkan oleh host Anda. Apakah alamat IP 
 pada paket tersebut sesuai dengan alamat IP yang tertera pada pesan balasan DNS? 
 ![hasil no 6](../assets/image/no6_Tracing%20DNS.png)
 
 ya, alamat paket TCP SYN sesuai dengan salah satu alamat IP yang sebelumnya diberikan oleh DNS dalam daftar jawaban. 
 
-13. Apakah host Anda perlu mengirimkan pesan permintaan DNS baru setiap kali ingin mengakses suatu gambar? 
+7. Apakah host Anda perlu mengirimkan pesan permintaan DNS baru setiap kali ingin mengakses suatu gambar? 
 ![hasil no 7](../assets/image/no7_Tracing%20DNS.png)
 
 tidak ditemukan adanya paket protokol DNS tambahan
