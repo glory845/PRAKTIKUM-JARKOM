@@ -139,12 +139,12 @@ Langkah-langkah percobaan:
 
 ya, ini adalah default alamat IP server DNS lokal saya.
 
-4. Pemeriksaan pesan permintaan
+3. Pemeriksaan pesan permintaan
 ![jawaban no 3](../assets/image/no3_www.png)
 
 menunjukkan bahwa nslookup sedang meminta alamat IPv6 dan pesan tersebut tidak mengandung jawaban.
 
-6. Pemeriksaan pesan balasan
+4. Pemeriksaan pesan balasan
 ![jawaban no 4](../assets/image/no4_www.png)
 
 4 jawaban: 2 record name dan 2 record type AAAA
@@ -157,16 +157,19 @@ Ketik perintah **nslookup –type=NS mit.edu** pada cmd
 
 ### Menjawab beberapa pertanyaan;
 1. Alamat IP tujuan permintaan
+   
 ![hasil no 1](../assets/image/no1_type.png)
 
 Pesan permintaan DNS dikirimkan ke alamat IP 128.238.29.22, alamat ini bukan default alamat IP saya.
 
-3. Pemeriksaan pesan permintaan
+2. Pemeriksaan pesan permintaan
+   
 ![hasil no 2](../assets/image/no2_type.png)
 
 Type A dan tidak mengandung jawaban.
 
-5. Pemeriksaan pesan balasan
+3. Pemeriksaan pesan balasan
+   
 ![hasil 3](../assets/image/no3_type.png)
 
 pesan balasan memberikan 3 nama server MIT dan memberikan alamat email
@@ -183,12 +186,12 @@ Ketik perintah **nslookup www.aiit.or.kr bitsy.mit.edu**
 
 alamat ip bukan merupakan default alamat IP server DNS lokal saya.
 
-3. Pemeriksaan pesan permintaan
+2. Pemeriksaan pesan permintaan
 ![jawaban no 2](../assets/image/no2_aiit.png)
 
 type A dan tidak mengandung jawaban.
 
-5. Pemeriksaan pesan balasan
+3. Pemeriksaan pesan balasan
 ![jawaban no 3](../assets/image/no3_aiit.png)
 
 terdapat 1 jawaban berisi pemetaan nama www.mit.edu ke alamt IP
