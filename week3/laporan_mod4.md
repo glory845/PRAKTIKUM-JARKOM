@@ -178,7 +178,7 @@ Type A dan tidak mengandung jawaban.
 
 pesan balasan memberikan 3 nama server MIT dan memberikan alamat email
 
-## Tracing DNS dengan perintah
+## Tracing DNS dengan perintah nslookup www.aiit.or.kr bitsy.mit.edu
 Langkah percobaan:
 Ketik perintah **nslookup www.aiit.or.kr bitsy.mit.edu**
 ![hasil](../assets/image/4.16.png)
@@ -186,16 +186,19 @@ Ketik perintah **nslookup www.aiit.or.kr bitsy.mit.edu**
 
 ### Menjawab beberapa pertanyaan:
 1. Alamat IPtujuan permintaan
+   
 ![jawaban no 1](../assets/image/no1_aiit.png)
 
 alamat ip bukan merupakan default alamat IP server DNS lokal saya.
 
 2. Pemeriksaan pesan permintaan
+   
 ![jawaban no 2](../assets/image/no2_aiit.png)
 
 type A dan tidak mengandung jawaban.
 
 3. Pemeriksaan pesan balasan
+   
 ![jawaban no 3](../assets/image/no3_aiit.png)
 
 terdapat 1 jawaban berisi pemetaan nama www.mit.edu ke alamt IP
