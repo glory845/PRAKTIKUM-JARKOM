@@ -131,20 +131,24 @@ Langkah-langkah percobaan:
 
 ### Menjawab beberapa pertanyaan:
 1. Port tujuan dan port sumber
+   
 ![jawaban no 1](../assets/image/no1.1_www.png)
 ![jawaban 2](../assets/image/no1.2_www.png)
 
 2. Alamat IP tujuan
+   
 ![jawaban no 2](../assets/image/no2_www.png)
 
 ya, ini adalah default alamat IP server DNS lokal saya.
 
 3. Pemeriksaan pesan permintaan
+   
 ![jawaban no 3](../assets/image/no3_www.png)
 
 menunjukkan bahwa nslookup sedang meminta alamat IPv6 dan pesan tersebut tidak mengandung jawaban.
 
 4. Pemeriksaan pesan balasan
+   
 ![jawaban no 4](../assets/image/no4_www.png)
 
 4 jawaban: 2 record name dan 2 record type AAAA
