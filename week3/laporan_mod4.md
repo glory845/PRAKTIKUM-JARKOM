@@ -20,7 +20,6 @@ perintah ini berarti "tolong kirimkan alamat IP untuk host www.mit.edu". jawaban
 permintaan tersebut berarti, "tolong kirimkan saya nama host dari DNS otoritatif untuk mit.edu". perintah itu digunakan untuk mengetahui nama-nama server DNS otoritatif suatu domain, dan hasil yang ditampilkan bisa berupa jawaban cache (non-otoritatif) dan alamat IP server otoritatif.
 
 4. Ketik perintah nslookup **www.aiit.or.kr bitsy.mit.edu**
-   
 ![nslookup aiit](../assets/image/4.3.png)
 
 Permintaan DNS diarahkan langsung ke server DNS bitsy.mit.edu, bukan ke server DNS lokal/default. Karena permintaan dikirim langsung, jawaban yang diterima adalah hasil otoritatif dari server MIT.
@@ -37,13 +36,13 @@ Ketik perintah **nslookup www.kompas.com** pada cmd
 
 server tersebut memiliki 4 alamat IP aktif. Informasi ini diperoleh melalui server DNS lokal yang memberikan jawaban bersifat non authoritative, yang menandakan bahwa data tersebut diambil dari cache server DNS.
 
-3. Server DNS otoritatif untuk universitas di Eropa. 
+2. Server DNS otoritatif untuk universitas di Eropa. 
 Ketik perintah **nslookup -type=NS cam.ac.uk** pada cmd
 ![univ eropa](../assets/image/4.6.png)
 
 diketahui bahwa server DNS otoritatif untuk University of Cambridge (Eropa) adalah auth0.dns.cam.ac.uk dengan alamat IP 131.111.8.37 dan auth1.dns.cam.ac.uk dengan alamat IP 131.111.12.37. Server inilah yang memegang seluruh informasi domain di kampus tersebut.
 
-5. Informasi mengenai server email dari Yahoo! Mail. Apa alamat IP-nya?  
+3. Informasi mengenai server email dari Yahoo! Mail. Apa alamat IP-nya?  
 Ketik perintah **nslookup -type=MX yahoo.com auth0.dns.cam.ac.uk** pada cmd
 ![email kampus](../assets/image/4.7.png)
 
@@ -56,12 +55,13 @@ server tersebut memberikan respon query refused karena kebijakan keamanan intern
 
 Perintah ini berfungsi untuk menampilkan detail teknis jaringan, termasuk alamat fisik perangkat (MAC Address) dan status apakah pengaturan IP bersifat otomatis (DHCP) atau manual.
 
-4. Ketik perintah **ipconfig /displaydns**
+3. Ketik perintah **ipconfig /displaydns**
+   
 ![display](../assets/image/4.19.png)
 
 Perintah ini berfungsi untuk menampilkan cache DNS yang tersimpan di komputer. Daftar ini berisi alamat situs yang pernah dikunjungi agar komputer bisa membukanya kembali dengan lebih cepat tanpa harus bertanya ke server internet lagi.
 
-5. Ketik perintah **ipconfig /flushdns**
+4. Ketik perintah **ipconfig /flushdns**
 ![flushddns](../assets/image/4.8.png)
 
 Perintah ini berfungsi untuk menghapus cache DNS di komputer. Tujuannya adalah untuk membersihkan data lama yang mungkin error dan memaksa komputer meminta alamat IP terbaru saat membuka situs web.
