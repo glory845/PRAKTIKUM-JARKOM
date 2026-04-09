@@ -20,6 +20,7 @@ perintah ini berarti "tolong kirimkan alamat IP untuk host www.mit.edu". jawaban
 permintaan tersebut berarti, "tolong kirimkan saya nama host dari DNS otoritatif untuk mit.edu". perintah itu digunakan untuk mengetahui nama-nama server DNS otoritatif suatu domain, dan hasil yang ditampilkan bisa berupa jawaban cache (non-otoritatif) dan alamat IP server otoritatif.
 
 4. Ketik perintah nslookup **www.aiit.or.kr bitsy.mit.edu**
+   
 ![nslookup aiit](../assets/image/4.3.png)
 
 Permintaan DNS diarahkan langsung ke server DNS bitsy.mit.edu, bukan ke server DNS lokal/default. Karena permintaan dikirim langsung, jawaban yang diterima adalah hasil otoritatif dari server MIT.
