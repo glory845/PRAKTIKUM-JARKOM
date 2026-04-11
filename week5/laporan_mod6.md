@@ -20,7 +20,7 @@ Langkah-langkah:
 4. Jalankan wireshark, pilih interface internet yang digunakan.
 5. Kembali ke browser, klik tombol upload alice.txt file. Tunggu sampai muncul pesan "Congratulations".
 
-![upload file](//assets/image/6.2.png)
+![upload file](../assets/image/6.2.png)
 
 6. Kembali ke wireshark dan klik stop
 7. Ketik tcp pada kolom filter untuk menampilkan semua segmen TCP.
