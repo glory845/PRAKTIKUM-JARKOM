@@ -29,11 +29,11 @@ Langkah-langkah:
 
 8. Cari paket dengan flag [SYN] di bagian awal paket.
 
-![SYN](../assets/image/6.5.png)
+![SYN](../assets/image/6.4.png)
 
 9. Cari paket dengan keterangan HTTP POST yang menunjukkan proses pengiriman file Alice.
 
-![HTTP POST](../assets/image/6.4.png)
+![HTTP POST](../assets/image/6.5.png)
 
 ## Menjawab pertanyaan dengan menganalisis paket yang tertangkap pada trace 
 1. Download file http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip 
