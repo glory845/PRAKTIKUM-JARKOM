@@ -104,10 +104,14 @@ while True:
 
 5. jalankan file server.py pada terminal.
 6. buka browser dan ketikkan url: http://localhost:6789/index.html
+
 ![berhasil](../assets/image/9.1.png)
+
 #### ket: server berhasil menampilkan pesan yang ada pada file index.html
 7. buka browser dan ketikkan url: http://localhost:6789/hai.html
+
 ![gagal](../assets/image/9.2.png)
+
 #### ket: server gagal menampilkan pesan dikarenakan file hai.html tidak dapat ditemukan.
 
 
@@ -181,8 +185,11 @@ file index.html
 </html>
 ```
 1. buka browser dan ketikkan url: http://localhost:6789/index.html
+
 ![berhasil](../assets/image/9.3.png)
+
 2. buka browser dan ketikkan url: http://localhost:6789/holaa.html
+
 ![gagal](../assets/image/9.4.png)
 
 ### kesimpulan:
