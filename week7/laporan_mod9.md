@@ -96,10 +96,10 @@ while True:
 </html>
 ```
 ### Penjelasan:
-- Dokumen diawali dengan deklarasi HTML5 (<!DOCTYPE html>).
-- Elemen <head> berisi judul halaman yang ditampilkan pada tab browser.
-- Elemen <body> berisi konten utama yang ditampilkan kepada pengguna.
-- Judul ditampilkan menggunakan <h1>, sedangkan teks menggunakan <p>.
+- Dokumen diawali dengan deklarasi HTML5 (```<!DOCTYPE html>```).
+- Elemen ```<head>`` berisi judul halaman yang ditampilkan pada tab browser.
+- Elemen ```<body>``` berisi konten utama yang ditampilkan kepada pengguna.
+- Judul ditampilkan menggunakan ```<h1>```, sedangkan teks menggunakan ```<p>```.
 - Browser menampilkan isi halaman sesuai dengan struktur HTML yang telah dibuat.
 
 5. jalankan file server.py pada terminal.
