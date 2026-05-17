@@ -26,7 +26,7 @@ Traceroute adalah perintah untuk melacak rute yang dilalui paket data dari peran
 
 ![hasil tracert](../assets/image/10.3.png)
 
-Kesimpulan:
+#### Kesimpulan:
 Dari hasil tracert, paket data berhasil mencapai server youtube.com dengan alamat IP **2404:6800:4003:c01::5b** melalui 24 hop menggunakan protokol IPv6. Pada hop 12–23 terdapat Request timed out karena Google memblokir paket ICMP demi keamanan, namun paket tetap berhasil sampai ke tujuan.
 
 ## ICMP (Internet Control Message Protocol)
@@ -52,7 +52,7 @@ Fragmentasi IP terjadi ketika ukuran paket melebihi MTU, sehingga paket dipecah 
 Cara melihat di Wireshark:
 1. Buka Wireshark
 2. Pilih interface wifi
-3. Jalankan perintah: ping -4 -l 5000 youtube.com
+3. Jalankan perintah: **ping -4 -l 5000 youtube.com**
 
 ![ping yt](../assets/image/10.6.png)
 
