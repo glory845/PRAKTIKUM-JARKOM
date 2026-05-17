@@ -21,7 +21,7 @@ DHCP bekerja pada model client-server, di mana DHCP Server menyimpan dan mendist
 4. IP yang tidak terpakai bisa didaur ulang
 5. Cocok untuk jaringan berskala besar
 
-## Kekurangan:
+### Kekurangan:
 1. Jika DHCP Server mati, semua perangkat tidak bisa mendapatkan IP
 2. Kurang cocok untuk perangkat yang membutuhkan IP tetap
 3. Rentan terhadap serangan DHCP Spoofing / Rogue DHCP Server
