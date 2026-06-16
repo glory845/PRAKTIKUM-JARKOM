@@ -65,5 +65,5 @@ paket kesalahan ini dikirim oleh Src: 192.168.1.1 menuju Dst: 192.168.1.127.
 - **Checksum:**
 nilai checksum paket error ini adalah 0xf4ff[correct].
 
-##### kesimpulan
+#### Kesimpulan:
 Tracert di Windows mengirim paket ICMP Echo Request dengan nilai TTL yang bertambah satu per satu. Saat TTL habis, router akan mengirim pesan ICMP Time Exceeded, sehingga komputer dapat mengetahui setiap router (hop) yang dilewati menuju tujuan.
