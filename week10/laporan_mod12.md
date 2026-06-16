@@ -13,7 +13,7 @@
 ![hasil cmd](../assets/image/12.1.png)
 
 3. kembali ke wireshark dan hentikan capture.
-4. lakukan filter dengan mengetik icmp
+4. lakukan filter dengan mengetik "icmp"
 
 ![hasil filter](../assets/image/12.2.png)
 
