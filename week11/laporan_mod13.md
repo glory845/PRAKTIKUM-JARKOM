@@ -6,7 +6,7 @@
 Mengamati proses komunikasi Ethernet dan ARP, serta menganalisis paket ARP Request dan ARP Reply menggunakan Wireshark.
 
 ### Analisis ARP pada Wireshark 
-1 . Membuka Command Prompt sebagai Administrator, kemudian menjalankan perintah **arp -d *** untuk menghapus seluruh isi ARP Cache.
+1 . Membuka Command Prompt sebagai Administrator, kemudian menjalankan perintah _arp -d *_ untuk menghapus seluruh isi ARP Cache.
 
 ![hasil admis](../assets/image/13.1.png)
 
